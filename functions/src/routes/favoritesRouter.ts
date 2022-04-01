@@ -1,7 +1,7 @@
 import express from "express";
 import { getClient } from "../db";
 import Gif from "../models/Gif";
-// CIC Test
+
 const favoritesRouter = express.Router();
 
 const errorResponse = (error: any, res: any) => {
